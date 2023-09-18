@@ -1,0 +1,68 @@
+#title {
+  
+  background-color: #000;
+}
+#title div.wrap {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 980px;
+}
+#title div.wrap h2 {
+  
+  line-height: 2;
+}
+#title div.wrap p {
+  
+  line-height: 1.7;
+  font-size: 20px;
+}
+#title div.wrap div {
+  
+  padding-top: 15px;
+}
+#title div.wrap div ul {
+  
+  display: flex;
+  gap: 6px;
+}
+#title div.wrap div ul li {
+  
+  color: white;
+  border: 1px solid #eee;
+  font-size: 0px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+#title div.wrap div ul li:nth-of-type(1){
+  
+  background: transparent url('../img/play.png') center/18px scroll no-repeat;
+}
+#title div.wrap div ul li:nth-of-type(2){
+  background: transparent url('../img/soundoff.png') center/18px scroll no-repeat;  
+}
+#title div.wrap div ul a {
+  
+  padding: 10px 29px 6px 13px;
+  background-color: #eee;
+  border-radius: 19px;
+  font-size: 13px;
+  position: relative;
+  color: #333;
+}
+#title div.wrap div ul a::after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  transform: rotate(45deg);
+}

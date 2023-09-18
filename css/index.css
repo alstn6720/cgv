@@ -1,0 +1,70 @@
+div.kkk{
+  
+  height: 241px;
+  background-color: #fed900;
+  margin-top: 150px;
+  background-image: url(../img/kkk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.outline{
+}
+aside {
+  position: fixed;
+  right: 500px;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 1;
+}
+/* 어사이드  */
+aside a{
+  
+}
+aside a:nth-of-type(1){
+  font-size: 15px;
+  width: 136px;
+  padding: 12px 0 14px;
+  line-height: 1.5;
+  background-image: linear-gradient(to left, rgb(255, 115, 86), rgb(251, 67, 87));
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+aside a:nth-of-type(2){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  font-size: 0;
+}
+aside a:nth-of-type(2):before{
+  content: "";
+  background-image: url(../img/top.png);
+  width: 15px;
+  height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+aside .ticket{
+  background-color: #00b5ff;
+  background-image: url(../img/plus.svg);
+}
+
+aside .top{
+  
+  background-color: black;
+  background-image: url(../img/top.svg);
+  background-size: 100%;
+}

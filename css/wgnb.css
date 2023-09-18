@@ -1,0 +1,47 @@
+div.wgnb {
+    position: absolute;
+    left: 0;
+    top: 173px;
+    width: 100%;
+    background-color: white;
+    display: none;
+  }
+  
+  div.wgnb div.center {
+    
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  div.wgnb div.center div.wsub {
+    width: 150px;
+    padding: 15px 0;
+  }
+  div.wgnb div.center div.wsub:not(:last-child){
+    border-right:1px solid #eeeeee; 
+  }
+  div.wgnb div.center div.wsub:nth-child(3){
+    width: 123.8px;
+  }
+  div.wgnb div.center div.wsub h2 {
+    
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: black;
+  font-weight: bolder;
+  }
+  div.wgnb div.center div.wsub ul {
+    
+  }
+  div.wgnb div.center div.wsub ul li {
+    
+  }
+  div.wgnb div.center div.wsub ul li a {
+    color: #333;
+    line-height: 2;
+    display: block;
+    font-size: 14px;
+  }
+div.wgnb div.center div.wsub ul li a:hover{
+  border-bottom: 1px solid;
+}
