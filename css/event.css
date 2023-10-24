@@ -1,0 +1,106 @@
+#event {
+  
+}
+#event div.wrap {
+  
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 980px;
+}
+#event div.wrap div.text {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 19px;
+}
+#event div.wrap div.text h2 {
+  
+  font-size: 41px;
+}
+#event div.wrap div.text ul {
+  
+  display: flex;
+}
+#event div.wrap div.text ul li {
+  
+}
+#event div.wrap div.text ul li a {
+  
+padding: 4px 32px 4px 15px;
+font-size: 14px;
+color: #222;
+line-height: 1.429em;
+background: transparent url('../img/right.png') calc(100% - 7px) center/8px 13px scroll no-repeat;
+border: 1px solid #e2e2e2;
+border-radius: 15px;
+box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+#event div.wrap div.evimal {
+  
+  display: flex;
+  width: 100%;
+}
+#event div.wrap div.evimal div.eventimg {
+  
+  width: calc(100% / 3);
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+}
+#event div.wrap div.evimal div.eventimg div.img_wrap{
+  
+  width: 307px;
+  height: 207px;
+  border-radius: 12px;
+
+  position: relative;
+  overflow: hidden;
+}
+#event div.wrap div.evimal div.eventimg img{
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(0, -50%);
+}
+#event div.wrap div.evimal div.eventimg img:hover{
+    transform: scale(1.1) translate(0, -45%);
+  transition: all 0.5s;
+}
+
+#event div.wrap div.evimal div.eventimg h3 {
+  
+  margin-top: 11px;
+}
+#event div.wrap div.evimal div.eventimg time {
+  
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.429em;
+}
+button.slick-prev{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8) url('../img/prev.png') center/9px 13px scroll no-repeat;
+  border-radius: 20px;
+  top: 100px;
+  left: -20px
+}
+button.slick-next{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8) url('../img/prev.png') center/9px 13px scroll no-repeat;
+  transform: rotate(-180deg);
+  border-radius: 20px;
+  top: 80px;
+}

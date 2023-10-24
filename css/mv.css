@@ -1,0 +1,328 @@
+#mv {
+  
+  background-color: #eee;
+  height: 100%;
+  width: 100%;
+}
+#mv div.wrap {
+  
+  width: 1040px;
+  overflow: hidden;
+  padding: 50px 30px 60px;
+  height: 100%;
+}
+#mv div.wrap div.mvtext {
+  
+  display: flex;
+  height: 37px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#mv div.wrap div.mvtext hgroup{
+  
+  display: flex;
+  font-size: 26px;
+  position: relative;
+}
+#mv div.wrap div.mvtext hgroup h2 {
+  
+  padding: 5px;
+}
+#mv div.wrap div.mvtext hgroup h2 button{
+  
+}
+#mv div.wrap div.mvtext hgroup h3 {
+  
+  color: #666;
+  padding: 5px;
+  position: relative;
+  margin-left: 30px;
+}
+#mv div.wrap div.mvtext hgroup h3:before{
+  content: '';
+  width: 10px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -15px;
+  top: 9px;
+  border-left: 1px solid #d8d8d8;
+}
+#mv div.wrap div.mvtext hgroup .outline{
+    outline: 3px solid #ead3d7;
+  font-weight: 700;
+  color: #222;
+}
+#mv div.wrap div.mvtext a:nth-child(2){
+  
+  padding: 4px 32px 4px 15px;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.429em;
+  background: transparent url('../img/right.png') calc(100% - 7px) center/8px 13px scroll no-repeat;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+#mv div.wrap div.mvdiv{
+  
+  display: flex;
+  width: 100%;
+}
+#mv div.wrap div.mvdiv .mvchart1{
+  
+  display: flex;
+  width: 100%;
+}
+#mv div.wrap div.mvdiv .mvchart2{
+  display: flex;
+  width: 100%;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv {
+  
+  position: relative;
+}
+
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.mvimg {
+  
+  width: 170px;
+  height: 230px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 14px;
+  object-fit: cover;
+  z-index: 1;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.mvimg img{
+  
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09) 45%, rgba(0, 0, 0, 0.85));
+  border-radius: 14px;
+}
+
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.mvimg p {
+  
+  font-size: 38px;
+  position: absolute;
+  left: 10px;
+  bottom: -3px;
+  color: white;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.text {
+  
+  width: 170px;
+  text-align: center;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.text h2 {
+  
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  overflow: hidden;
+  margin-top: 14px;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.167em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.text span {
+  
+  display: block;
+  margin-top: 9px;
+  font-size: 14px;
+  line-height: 1.214em;
+  position: relative;
+  display: inline;
+  margin-left: 20px;
+  color: #333;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.text span:nth-child(2):after{
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: block;
+  background-image: url(../img/texticon.png);
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  background-size: cover;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk{
+  
+  width: 170px;
+  height: 230px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 6px 10px 20px 0 rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk ul{
+  
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk ul li{
+  
+  width: 120px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk ul li:nth-of-type(1){
+  
+  background-color: white;
+  color: #333;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk ul li:nth-of-type(2){
+  
+  background-color: #f14f3a;
+  color: white;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk ul li:nth-of-type(1):hover{
+  opacity: 0.8;
+}
+#mv div.wrap div.mvdiv .mvchart1 div.mv div.tk ul li:nth-of-type(2):hover{
+  opacity: 0.8;
+}
+
+.none{
+ display: none;  
+}
+.black{
+  display: block;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv {
+  
+  position: relative;
+}
+
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.mvimg {
+  
+  width: 170px;
+  height: 230px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 14px;
+  object-fit: cover;
+  z-index: 1;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.mvimg img{
+  
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09) 45%, rgba(0, 0, 0, 0.85));
+  border-radius: 14px;
+}
+
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.mvimg p {
+  
+  font-size: 38px;
+  position: absolute;
+  left: 10px;
+  bottom: -3px;
+  color: white;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.text {
+  
+  width: 170px;
+  text-align: center;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.text h2 {
+  
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  overflow: hidden;
+  margin-top: 14px;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.167em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.text span {
+  
+  display: block;
+  margin-top: 9px;
+  font-size: 14px;
+  line-height: 1.214em;
+  position: relative;
+  display: inline;
+  margin-left: 20px;
+  color: #333;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.text span:nth-child(2):after{
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: block;
+  background-image: url(../img/texticon.png);
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  background-size: cover;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk{
+  
+  width: 170px;
+  height: 230px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 6px 10px 20px 0 rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4);
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk ul{
+  
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk ul li{
+  
+  width: 120px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk ul li:nth-of-type(1){
+  
+  background-color: white;
+  color: #333;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk ul li:nth-of-type(2){
+  
+  background-color: #f14f3a;
+  color: white;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk ul li:nth-of-type(1):hover{
+  opacity: 0.8;
+}
+#mv div.wrap div.mvdiv .mvchart2 div.mv div.tk ul li:nth-of-type(2):hover{
+  opacity: 0.8;
+}
